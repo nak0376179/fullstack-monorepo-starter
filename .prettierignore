@@ -1,0 +1,8 @@
+node_modules
+dist
+storybook-static
+coverage
+.turbo
+pnpm-lock.yaml
+apps/backend/.venv
+apps/backend/.aws-sam

@@ -1,0 +1,36 @@
+node_modules/
+dist/
+dist-ssr/
+storybook-static/
+coverage/
+.turbo/
+*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python / backend
+apps/backend/.venv/
+apps/backend/__pycache__/
+apps/backend/**/__pycache__/
+apps/backend/.pytest_cache/
+apps/backend/.ruff_cache/
+apps/backend/build/
+apps/backend/.aws-sam/
+apps/backend/requirements.txt
+*.pyc
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+
+# 環境変数 (.env.example だけはテンプレートとして公開する)
+.env
+.env.*
+!.env.example
