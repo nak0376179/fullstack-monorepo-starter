@@ -86,7 +86,7 @@ export function TabularImport() {
             </Button>
           </Stack>
 
-          <Stack direction="row" spacing={2} alignItems="center">
+          <Stack direction="row" spacing={2} sx={{ alignItems: "center" }}>
             <FormLabel id="output-format-label">出力形式</FormLabel>
             <RadioGroup
               row
@@ -105,7 +105,7 @@ export function TabularImport() {
 
           {result && !result.ok && (
             <Alert severity="error">
-              <Typography variant="body2" fontWeight="bold">
+              <Typography variant="body2" sx={{ fontWeight: "bold" }}>
                 {result.totalErrorCount}件のエラーがあります
               </Typography>
               <Box component="ul" sx={{ m: 0, pl: 2.5 }}>

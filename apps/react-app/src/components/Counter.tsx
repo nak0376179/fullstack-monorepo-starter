@@ -9,7 +9,7 @@ export function Counter({ initialCount = 0 }: CounterProps) {
   const [count, setCount] = useState(initialCount);
 
   return (
-    <Stack direction="row" spacing={2} alignItems="center">
+    <Stack direction="row" spacing={2} sx={{ alignItems: "center" }}>
       <Button variant="contained" onClick={() => setCount((c) => c + 1)}>
         Count is {count}
       </Button>
